@@ -4,7 +4,7 @@ import { Data } from "../Data.js";
 export const Projects = () => {
     return (
         <>
-            <div className="container">Here are the projects</div>
+            <div className="container"></div>
             {Data.map((data, key) => {
                 return (
                     <div key={key}>
